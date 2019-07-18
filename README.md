@@ -1,2 +1,2 @@
 # docker
-test
+Sample Dockerfile configurations for different type of projects
