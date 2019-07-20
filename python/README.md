@@ -3,7 +3,12 @@
 docker build -t testpython .
 ```
 
+# Remove old running container
+```
+docker rm -f testpython
+```
+
 # Run
 ```
-docker run -d -p 1337:80 --name testpython testpython
+docker run -d -p 8081:80 --name testpython testpython
 ```
